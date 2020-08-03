@@ -1,0 +1,132 @@
+/*Common elements*/
+body{
+    background: url(titanassets/titanfallbackground.jpg) top fixed;
+    margin: 0;
+    -webkit-background-size: 100% 100%;
+     -moz-background-size: 100% 100%;
+     background-size: 100% 100%;
+     -o-background-size: 100% 100%;
+}
+header{
+    background-color:#a2a28f;
+    margin: 0;
+}
+.title{
+    font-family: 'Rowdies';
+}
+h1{
+    margin: 0;
+}
+
+#main{
+    background-color: rgba(252,251,243,0.7);
+    margin: 0 30px 5px 30px;
+    padding: 2px 2px 2px 2px;
+    
+    box-shadow: 1px 1px 5px #777;
+    
+}
+
+
+
+#headclass{
+    background-color: white;
+    margin: 10px 10px 10px 10px;
+}
+
+
+nav {
+    color: #000;
+    font-size: 1.7em;
+    letter-spacing: 0.04em;
+    padding: 1.0em 1.0em 0.5em;
+    margin: 1.0em 0 ;
+}
+nav#utilityMenu {
+    float: right;
+    margin: 0;
+    padding: 5px 5px 5px 5px;
+    background-color: b#a2a28f;
+    height: 35px;
+    display: flex;
+    align-items: right;
+    justify-content: space-around;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;;
+    list-style: none;
+}
+    nav li{
+    display: inline-block;
+}
+
+
+
+.contentWrapper {
+    margin: 0 auto;
+    max-width: 1170px;
+    padding: 0 3.0em;
+}
+
+
+
+
+.titanName{
+    font-family: 'Rowdies';
+    text-align: center;
+    font-size: 30px;
+}
+
+.titanCard{
+    perspective:100vw;
+    
+}
+
+.titanCard .front, .titanCard .back{
+
+        transition:.5s;
+        backface-visibility: hidden;
+        
+        
+        
+
+}
+
+.titanCard:hover .front{
+    transform:rotateY(180deg);
+    position: relative;
+}
+
+.titanCard .back{
+    background: #333;
+    color: #fff;
+    position: relative; top: -400px;
+    
+    transform:rotateY(180deg); 
+    
+    
+} 
+
+
+
+
+
+.titanCard:hover .back{
+    transform: rotateY(360deg);
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 33.3%;
+    float: left;
+    
+}
+
+
+
+
+
